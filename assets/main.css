@@ -83,7 +83,7 @@ th,td{
          width: 1000px; height: 220px;
          font-family:'Roboto Slab',serif;
          background-image: url("tuwien-1825.jpg");
-        background-position: right;}
+         background-position: right;}
 .banner-child {font-size:5.33em; color: #505050; background: #fafafa;
                text-align: center; flex: 1;
                background-color: transparent;
