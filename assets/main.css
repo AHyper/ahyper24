@@ -15,6 +15,21 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.josefin-sans-<uniquifier> {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 *{
     border:0;
     font:inherit;
@@ -30,7 +45,7 @@ body{
     background-attachment: fixed;
     color: #505050; 
     text-align:left;
-    font-family:'Roboto',sans-serif;
+    font-family:'Abril Fatface',sans-serif;
     font-size:1em;
     line-height:1.5em;
     margin: 60px auto;
@@ -44,14 +59,14 @@ a.current:hover{color: #e82945;}
 */
 a:hover{color: #3d5ef4;}
 a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #3d5ef4; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+h1,h2,h3,h4{clear:left; color: #3d5ef4; margin:1.5em 0em 1em 0em; font-family:'Abril Fatface',serif; text-shadow: 1px 1px 1px #d0d0d0;}
 h1{font-size:2.67em;}
 h2{font-size:2.00em;}
 h3{font-size:1.67em;}
 h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;font-size:1.2em;font-family:'Josefin Sans';color:#545454}
 li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
+ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;font-size:1.2em;}
 ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
 i,em{font-style:italic;}
 b,strong{font-weight:bold;}
@@ -81,21 +96,22 @@ th,td{
 /* Website Banner */
 .banner {position: relative; display: flex;
          width: 1000px; height: 220px;
-         font-family:'Roboto Slab',serif;
-         background-image: url("tuwien-1825.jpg");
+         font-family:'Abril Fatface',serif;
+         background-image: 'assets/HyTPra.png';
          background-position: right;}
-.banner-child {font-size:5.33em; color: #505050; background: #fafafa;
+.banner-child {font-size:5.33em; color: #3d5ef4; background: #fafafa;
                text-align: center; flex: 1;
                background-color: transparent;
 }
 .logo {
   background-color: #fafafa;
 }
-.venue {font-size:2.33em; color: #fafafa; line-height: 1.5em;
+.venue {font-size:2em; color: #3d5ef4; line-height: 1em;
         width: auto; 
         text-align: right; margin-top: auto;
+        line-height: 1;
         padding-right: 10px;
-        text-shadow: 0px 0px 6px #000000;
+        text-shadow: 0px 0px 2px #011261;
         }
 .venue a {
   color: #fafafa;
@@ -104,6 +120,13 @@ th,td{
   color: #ffd600;
 }
 
+.venueSmall {font-size:0.75em; color: #000000; line-height: 1em;
+        width: auto; 
+        text-align: right; margin-top: 1em; margin-bottom: 1em;
+        line-height: 1;
+        padding-right: 10px;
+        }
+
 .banner-background {
  
 }
@@ -111,10 +134,10 @@ th,td{
 .year{color: #505050; font-size:0.67em; font-weight: lighter;}
 
 /* Navigation Links (Home, Registration, etc) */
-table.navigation{width:1000px; background-color: #0e0e0e; padding: 12px; margin-top: 0;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
+table.navigation{width:1000px; background-color: #fafafa; padding: 12px; margin-top: 0;}
+td.navigation{font-size:1.8em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
 
-.navigation a { color: #ffd600; }
+.navigation a { color: #ffd600; text-shadow: 1.4px 2px #3d5ef4, 2px 1.4px #3d5ef4, 1.4px 2px #3d5ef4, 2px 0px #3d5ef4; font-family:'Josefin Sans',serif;}
 
 /* Sponsor Images */
 table.sponsors{width:800px;}
@@ -125,8 +148,8 @@ td.sponsor img{width: 100%}
 /* The Table on the Program Page */
 td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
 td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
-td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #813c54; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
-td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
+td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #813c54; height:32px; font-family:'Abril Fatface',serif; text-shadow: 1px 1px 2px #d0d0d0; }
+td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Abril Fatface',serif; text-shadow: 1px 1px 2px #d0d0d0;}
 td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
 td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
