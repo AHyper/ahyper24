@@ -55,50 +55,128 @@
         </tr>
     </table>
 
-	Tempative Programme. Full program to be announced closer to the workshop date.
+	<p>Tempative Programme. </p>
 	
     <h2>Program 6th of July</h2>
 
+ 
+	<table class="plenary">
+        <tr>
+            <td class="date" rowspan="3">09:30 - 10:30</td>
+            <td class="title">Keynote - <a href="https://boriskoepf.de/">Boris Köpf</a></td>
+        </tr>
+        <tr>
+        <td class="speaker"></td>
+        </tr>
+        <tr>
+        <td class="abstract"></td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td class="date" rowspan="2">10:30 - 11:00</td>
+            <td class="title-special">Coffee Break</td>
+        </tr>
+        <tr><td class="abstract"></td>
+        </tr>
+    </table>
+    
+    <table id="Applications">
+        <tr>
+            <td class="date" rowspan="3">11:00 - 12:30</td>
+            <td class="title">Applications</td>
+        </tr>
+    </table>
+    <table id="Tonetta">
+    <h4> Hyperproperties for diagnosability and fault detection</h4>
+        <tr>
+            <td class="speaker">Marco Bozzano, Alessandro Cimatti and <u>Stefano Tonetta</u></td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+            In this talk, we review our previous work on the design and verification of Fault, Detection, Identification (FDI) components. We show that requirements such as fault detection and diagnosability are hyperproperties that can be formalized in epistemic temporal logic, both in the synchronous and asynchronous settings. We review the standard approach to diagnosability based on self-composition, traditionally called twin plant, and verification of the existence of a critical pair, a pair of paths, one faulty and the other non-faulty, that are observationally equivalent. We generalize the problem adopting a comprehensive framework that encompasses fair transition systems, temporally extended fault models, delays between the occurrence of a fault and its detection, and rich operational contexts. We show that in presence of fairness the definition of diagnosability has several interesting variants, and discuss the relative strengths and the mutual relationships. We prove that the existence of critical pairs is not always sufficient to analyze diagnosability, and needs to be generalized to critical sets. We define new notions of critical pairs, called ribbon-shape, with special looping conditions to represent the critical sets. Based on these findings, we provide algorithms to prove the diagnosability under fairness. 
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+
+     <table id="Niessen">
+        <h4>Symbolic Bug Finding for Asynchronous Hyperproperties</h4>
+        <tr>
+            <td class="speaker">Arthur Correnson, <u>Tobias Nießen</u>, Bernd Finkbeiner and Georg Weissenbacher</td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+            Hyperproperties relate multiple executions of one or more systems, and
+can specify important security requirements that other formalisms cannot.
+In the context of software systems, multiple executions of the same (or different) programs can progress at different paces.
+Therefore, most hyperproperties that we wish to express for software systems are in fact <i>asynchronous</i> hyperproperties: they require to <i>align</i> the executions appropriately before comparing them.
+Asynchronicity adds to the difficulty of both verification and testing of hyperproperties.
+While approaches to the verification of asynchronous hyperproperties have already been proposed  the refutation of asynchronous hyperproperties received far less attention. Methods exist for refuting hyperproperties of finite-state systems, but they are restricted to the analysis of synchronous hyperproperties.
+In this presentation, we do a tour of the challenges of applying known automated testing methods to asynchronous hyperproperties of infinite-state systems (i.e., software systems).
+In particular, we focus on automated testing of asynchronous hyperproperties using symbolic execution.
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+    <table id="BoundedMC">
+        <h4>Bounded Model Checking for Asynchronous Hyperproperties</h4>
+        <tr>
+            <td class="speaker"> Tzu-Han Hsu, Borzoo Bonakdarpour, Bernd Finkbeiner and César Sánchez </td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+            Many types of attacks on confidentiality stem from the nondeterministic nature of the environment that computer programs operate in. We focus on verification of confidentiality in nondeterministic environments by reasoning about asynchronous hyperproperties. We generalize the temporal logic A-HLTL to allow nested trajectory quantification, where a trajectory determines how different execution traces may advance and stutter. We propose a bounded model checking algorithm for A-HLTL based on QBF-solving for a fragment of A-HLTL and evaluate it by various case studies on concurrent programs, scheduling attacks, compiler optimization, speculative execution, and cache timing attacks. We also rigorously analyze the complexity of model checking A-HLTL.
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+
+
+
     <table>
         <tr>
             <td class="date" rowspan="2">
-                9:00am
+                12:30 - 14:00
             </td>
             <td class="title-special">
-                Morning Coffee
+                Lunch Break
             </td>
         </tr>
         <tr>
             <td class="abstract">
-               
+                <!-- Kept for Spacing -->
             </td>
         </tr>
     </table>
+
 
 	<table class="plenary">
         <tr>
             <td class="date" rowspan="3">
-                09:30am
+                14:00 - 15:00
             </td>
-            <td class="title">
-                Keynote Talk
-            </td>
+            <td class="title">Keynote - <a href="https://people.kth.se/~musard/">Musard Balliu</a> </td>
         </tr>
         <tr>
-            <td class="speaker">
-
-            </td>
+            <td class="speaker"> </td>
         </tr>
         <tr>
-            <td class="abstract">
-            </td>
+            <td class="abstract"> </td>
         </tr>
     </table>
-
+    
     <table>
         <tr>
             <td class="date" rowspan="2">
-                10:30am
+                15:00 - 15:30
             </td>
             <td class="title-special">
                 Coffee Break
@@ -111,62 +189,59 @@
         </tr>
     </table>
     
-    <table id="PUTSPEAKERNAMEHERE">
+    <table id="Formalisms1">
         <tr>
             <td class="date" rowspan="3">
-                11:00am
+                15:30 - 17:00
             </td>
             <td class="title">
-                First session
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-               
+                Formalisms I
             </td>
         </tr>
     </table>
-
-
-
-    <table>
+    
+     <table id="Coenen">
+        <h4>A-HyperLTL: A Temporal Logic for Asynchronous Hyperproperties</h4>
         <tr>
-            <td class="date" rowspan="2">
-                12:30
-            </td>
-            <td class="title-special">
-                Break
-            </td>
+            <td class="speaker">Norine Coenen</td>
         </tr>
         <tr>
             <td class="abstract">
-                <!-- Kept for Spacing -->
+            <p style="text-align: justify;">
+            The temporal logic A-HyperLTL is an extension of HyperLTL to express asynchronous hyperproperties. While HyperLTL has a synchronous semantics that advances the traces it relates with each other in lockstep, the asynchronous variant of HyperLTL introduces so-called trajectories that determine which traces advance and which traces stutter. This enables the analysis of systems whose traces can proceed at different speeds and that allow that different traces take stuttering steps independently.
+In this talk, we introduce the logic A-HyperLTL and study its model-checking problem. While the general problem is undecidable, we identify two decidable fragments and present corresponding model-checking algorithms that reduce our problem to that of synchronous HyperLTL.
+
+This talk presents joint work with Jan Baumeister, Borzoo Bonakdarpour, Bernd Finkbeiner, and César Sánchez which was first presented at CAV 2021. 
+            </p>
             </td>
         </tr>
     </table>
-
-
-	<table class="plenary">
+    
+    <table id="Sanchez">
+        <h4>Temporal logics for Asynchronous Hyperproperties</h4>
         <tr>
-            <td class="date" rowspan="3">
-                2:00pm
-            </td>
-            <td class="title">
-                Keynote Talk
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-
-            </td>
+            <td class="speaker">César Sánchez</td>
         </tr>
         <tr>
             <td class="abstract">
+            <p style="text-align: justify;">
+
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+     <table id="Gutsfeld">
+        <h4>Automata and Fixpoints for Asynchronous Hyperproperties</h4>
+        <tr>
+            <td class="speaker">Jens Oliver Gutsfeld</td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+We study asynchronous analyses for hyperproperties by introducing both a novel automata model (Alternating Asynchronous Parity Automata) and the temporal fixpoint calculus H_mu, the first fixpoint calculus that can systematically express hyperproperties in an asynchronous manner and at the same time subsumes the existing logic HyperLTL. We discuss how the expressive power of both models coincides over fixed path assignments. The high expressive power of both models is evidenced by the fact that decision problems of interest are highly undecidable, i.e. not even arithmetical. As a remedy, we propose approximative analyses for both models that also induce natural decidable fragments.
+This talk is based on joint work with Markus Müller-Olm and Christoph Ohrem.
+            </p>
             </td>
         </tr>
     </table>
@@ -174,42 +249,7 @@
     <table>
         <tr>
             <td class="date" rowspan="2">
-                3:00pm
-            </td>
-            <td class="title-special">
-                Coffee Break
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
-    
-    <table id="PUTSPEAKERNAMEHERE">
-        <tr>
-            <td class="date" rowspan="3">
-                3:30pm
-            </td>
-            <td class="title">
-                Second Session
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-            </td>
-        </tr>
-    </table>
-    
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                5:00pm
+                17:00 - 17:30
             </td>
             <td class="title-special">
                 Break
@@ -223,69 +263,77 @@
     </table>
 
     
-
-    <table id="PUTSPEAKERNAMEHERE">
+ 	<table id="Formalisms2">
         <tr>
             <td class="date" rowspan="3">
-                5:15pm
+                17:30 - 18:30
             </td>
             <td class="title">
-			Third Session
-            </td>
-        </tr>
-        <tr>
-            <td class="speaker">
-
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-           
+                Formalisms II
             </td>
         </tr>
     </table>
     
-     <!--table>
+    
+   <table id="Ohrem">
+        <h4>Deciding Asynchronous Hyperproperties for Recursive Programs</h4>
         <tr>
-            <td class="date" rowspan="2">
-                07:30 pm
-            </td>
-            <td class="title-special">
-                Social Event
-            </td>
+            <td class="speaker">Christoph Ohrem</td>
         </tr>
         <tr>
             <td class="abstract">
-                <!-- Kept for Spacing -->
+            <p style="text-align: justify;">
+We introduce a novel logic for asynchronous hyperproperties with a new mechanism to identify relevant positions on traces. While the new logic is more expressive than a related logic presented recently by Bozzelli et al., we obtain the same complexity of the model checking problem for finite state models. Beyond this, we study the model checking problem of our logic for pushdown models. We argue that the combination of
+asynchronicity and a non-regular model class presented in this talk constitutes the first suitable approach for hyperproperty model checking against recursive programs.
+
+The talk is based on the paper "Deciding Asynchronous Hyperproperties for Recursive Programs" presented at POPL 2024. This is joint work with Jens Gutsfeld and Markus Müller-Olm.
+            </p>
             </td>
         </tr>
-    </table-->
+    </table>
+    
+      <table id="Virtema">
+        <h4>Asynchronicity in temporal team semantics</h4>
+        <tr>
+            <td class="speaker">Jonni Virtema</td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+TeamLTL is a logical formalism introduced in 2018 for specifying hyperproperties. The distinctive feature of TeamLTL, that separates it from prior logics designed for hyperproperties (such as HyperLTL), is the adoption of team semantics. While HyperLTL, an similar logics, are obtained from LTL by extending their syntax with first-order quantifiers ranging over traces, team semantics of LTL is defined directly over sets of traces. Without extensions the asynchronous variant of TeamLTL coincides both syntactically and semantically with LTL. However, the power of logics with team semantics arise from extensions; since formulae are evaluated directly on sets of traces, fundamental building blocks of hyperproperties of interest can be added directly as atomic statements in the logic. In the team semantics literature, the most prominent of these atomic statements are the dependence atom dep(x,y) (stating that the values of the variable-tuple x functionally determine the values of y) and inclusion atom x ⊆ y (expressing the inclusion dependency that all the values occurring for x must also occur as a value for y). As an example, let o1, ..., on be public observables and assume that c reveals confidential information. The atom (o1,...on,c) ⊆ (o1,...on,¬c) expresses a form of non-inference by stating that an observer cannot infer the value of the confidential bit from the outputs.
+
+In this talk, I discuss recent developments in temporal team semantics, and focus on the developments related to forms of asynchronicity. 
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+     <table id="Costa">
+        <h4>Hypernode Automata</h4>
+        <tr>
+            <td class="speaker">Ana Oliveira da Costa</td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+    
+    
 
 <h2>Program 7th of July</h2>
 
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                9:00am
-            </td>
-            <td class="title-special">
-                Morning Coffee
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-               
-            </td>
-        </tr>
-    </table>
-
 	<table class="plenary">
         <tr>
             <td class="date" rowspan="3">
-                09:30am
+                09:30-10:30
             </td>
             <td class="title">
-                Keynote Talk
+                Keynote -<a href="https://astrivedi.github.io/www/index.html">Ashutosh Trivedi</a>
             </td>
         </tr>
         <tr>
@@ -302,7 +350,7 @@
     <table>
         <tr>
             <td class="date" rowspan="2">
-                10:30am
+                10:30 - 11:00
             </td>
             <td class="title-special">
                 Coffee Break
@@ -315,44 +363,47 @@
         </tr>
     </table>
     
-    <table id="PUTSPEAKERNAMEHERE">
+    <table id="Prob">
         <tr>
             <td class="date" rowspan="3">
-                11:00am
+                11:00 - 12:00
             </td>
             <td class="title">
-                Fourth session
+Probabilistic Hyperproperties
             </td>
         </tr>
+    </table>
+   <table id="Pontiggia">
+        <h4>Deductive Controller Synthesis for Probabilistic Hyperproperties</h4>
         <tr>
-            <td class="speaker">
-
-            </td>
+            <td class="speaker">Roman Andriushchenko, Ezio Bartocci, Milan Ceska, <u>Francesco Pontiggia</u> and Sarah Sallinger</td>
         </tr>
         <tr>
             <td class="abstract">
-               
+            <p style="text-align: justify;">
+Probabilistic hyperproperties extend the concept of hyperproperties to probabilistic systems. In a nutshell, they specify quantitative relations between the probabilities of reaching different target sets of states from different initial sets of states. This class of behavioral properties is suitable for capturing important security, privacy, and system-level requirements. In this talk we describe a novel approach to solve the controller synthesis problem for Markov decision processes (MDPs) and probabilistic hyperproperties. The specification language we consider builds on top of the logic HyperPCTL and enhances it with structural constraints over the synthesized controllers. Our approach starts from a family of controllers represented symbolically and defined over the same copy of an MDP. We then introduce an abstraction refinement strategy that can relate multiple computation trees and that we employ to prune the search space deductively. The experimental evaluation demonstrates that the proposed approach outperforms HyperProb, a state-of-the-art SMT-based model checking tool for HyperPCTL. Moreover, our approach is the first one that is able to effectively combine probabilistic hyperproperties with additional intra-controller constraints (e.g. partial observability) as well as inter-controller constraints (e.g. agreements on a common action).
+            </p>
+            </td>
+        </tr>
+    </table>
+    
+    <table id="Gerlach">
+        <h4>Introducing Asynchronicity to Probabilistic Hyperproperties</h4>
+        <tr>
+            <td class="speaker">Carolina Gerlach, Oyendrila Dobe, Erika Abraham, Ezio Bartocci and Borzoo Bonakdarpour</td>
+        </tr>
+        <tr>
+            <td class="abstract">
+            <p style="text-align: justify;">
+We propose a new asynchronous hyperlogic called AHyperPCTL, which extends HyperPCTL by explicit quantification over stutter-schedulers. Stutter-schedulers are associated with a specific computation tree variable and determine when the traces in the corresponding computation tree should stutter. Stuttering decisions can be probabilistic and may depend on the current state, the chosen action and the history of the trace. We show that AHyperPCTL can express interesting information-flow security policies and subsequently present a model-checking algorithm for a decidable fragment of AHyperPCTL. To our knowledge, this is the first asynchronous extension of a probabilistic branching-time hyperlogic.
+            </p>
             </td>
         </tr>
     </table>
 
 
 
-    <table>
-        <tr>
-            <td class="date" rowspan="2">
-                12:00
-            </td>
-            <td class="title-special">
-                Closing
-            </td>
-        </tr>
-        <tr>
-            <td class="abstract">
-                <!-- Kept for Spacing -->
-            </td>
-        </tr>
-    </table>
+    
 
     
 
