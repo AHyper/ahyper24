@@ -225,7 +225,7 @@ This talk presents joint work with Jan Baumeister, Borzoo Bonakdarpour, Bernd Fi
         <tr>
             <td class="abstract">
             <p style="text-align: justify;">
-
+Hyperproperties are a modern specification paradigm that extends trace properties to express properties of sets of traces. Temporal logics for hyperproperties studied in the literature, including HyperLTL, assume a synchronous semantics and enjoy a decidable model checking problem. In this paper, we introduce two asynchronous and orthogonal extensions of HyperLTL, namely Stuttering HyperLTL (HyperLTL<sub>S</sub>) and Context HyperLTL (HyperLTL<sub>C</sub>). Both of these extensions are useful, for instance, to formulate asynchronous variants of information-flow security properties. We show that for these logics, model checking is in general undecidable. On the positive side, for each of them, we identify a fragment with a decidable model checking that subsumes HyperLTL and that can express meaningful asynchronous requirements. Moreover, we provide the exact computational complexity of model checking for these two fragments which, for the HyperLTL<sub>S</sub> fragment, coincides with that of the strictly less expressive logic HyperLTL.
             </p>
             </td>
         </tr>
@@ -239,7 +239,7 @@ This talk presents joint work with Jan Baumeister, Borzoo Bonakdarpour, Bernd Fi
         <tr>
             <td class="abstract">
             <p style="text-align: justify;">
-We study asynchronous analyses for hyperproperties by introducing both a novel automata model (Alternating Asynchronous Parity Automata) and the temporal fixpoint calculus H_mu, the first fixpoint calculus that can systematically express hyperproperties in an asynchronous manner and at the same time subsumes the existing logic HyperLTL. We discuss how the expressive power of both models coincides over fixed path assignments. The high expressive power of both models is evidenced by the fact that decision problems of interest are highly undecidable, i.e. not even arithmetical. As a remedy, we propose approximative analyses for both models that also induce natural decidable fragments.
+We study asynchronous analyses for hyperproperties by introducing both a novel automata model (Alternating Asynchronous Parity Automata) and the temporal fixpoint calculus Hµ, the first fixpoint calculus that can systematically express hyperproperties in an asynchronous manner and at the same time subsumes the existing logic HyperLTL. We discuss how the expressive power of both models coincides over fixed path assignments. The high expressive power of both models is evidenced by the fact that decision problems of interest are highly undecidable, i.e. not even arithmetical. As a remedy, we propose approximative analyses for both models that also induce natural decidable fragments.
 This talk is based on joint work with Markus Müller-Olm and Christoph Ohrem.
             </p>
             </td>
@@ -316,7 +316,9 @@ In this talk, I discuss recent developments in temporal team semantics, and focu
         <tr>
             <td class="abstract">
             <p style="text-align: justify;">
+We introduce hypernode automata as a new specification formalism for hyperproperties of concurrent systems. They are finite automata with nodes labeled with hypernode logic formulas and transitions labeled with actions. A hypernode logic formula specifies relations between sequences of variable values in different system executions. Unlike HyperLTL, hypernode logic takes an asynchronous view on execution traces by constraining the values and the order of value changes of each variable without correlating the timing of the changes. Different execution traces are synchronized solely through the transitions of hypernode automata. Hypernode automata naturally combine asynchronicity at the node level with synchronicity at the transition level. We show that the model-checking problem for hypernode automata is decidable over action-labeled Kripke structures, whose actions induce transitions of the specification automaton. For this reason, hypernode automaton is a suitable formalism for specifying and verifying asynchronous hyperproperties, such as declassifying observational determinism in multi-threaded programs. 
 
+This talk presents joint work with Ezio Bartocci, Thomas A. Henzinger, Dejan Nickovic and Marek Chalupa.
             </p>
             </td>
         </tr>
@@ -390,7 +392,7 @@ Probabilistic hyperproperties extend the concept of hyperproperties to probabili
     <table id="Gerlach">
         <h4>Introducing Asynchronicity to Probabilistic Hyperproperties</h4>
         <tr>
-            <td class="speaker">Carolina Gerlach, Oyendrila Dobe, Erika Abraham, Ezio Bartocci and Borzoo Bonakdarpour</td>
+            <td class="speaker"><u>Carolina Gerlach</u>, Oyendrila Dobe, Erika Abraham, Ezio Bartocci and Borzoo Bonakdarpour</td>
         </tr>
         <tr>
             <td class="abstract">
